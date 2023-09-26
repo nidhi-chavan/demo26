@@ -2,8 +2,20 @@ This is my demo file of git and github
 dir
 cd desktop
 dir
-mkdir demo2609
+mkdir demo2609(create a directory of name demo2609)
 dir(check wether the directory id made or not)
 create File1.txt file 
 cd demo2609
-dir
+(create a new repository by file name select readme option)
+git init (initalize the git repository)
+git status ( shows the status of file .If the file is stored then it shows the status in green if not it is shown in red below command is used)
+git add .
+git add . File name( To add the file indivually)
+git commit -m "initial commit in file name file" (save the detail)
+(To make the file global commands are as follows)
+git config --global user.name "abc"
+git congif --global user.email "abc@gmail.com"
+(Now the file which is stored on local machine we have to store it globally on github by usinf following commands)
+git remote add origin git file url
+git commit -m"initial commit in file1.txt file"
+git push origin master(it pushes main to masters which stores the file which is created locally is stored globally )
